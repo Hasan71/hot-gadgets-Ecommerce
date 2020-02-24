@@ -1,4 +1,3 @@
-
 .container{
     margin-bottom: 100px;
 }
@@ -14,6 +13,9 @@
     color: blueviolet;
 }
 
+.price{
+    color:orange;
+}
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 40px;
     width: 40px;
@@ -23,10 +25,12 @@
 .carousel-item{
     padding: 20px 40px;
 }
-/*.col-md-7{
-    padding: 30px;
-}*/
+
 .carousel-item p{
+    color: dimgray;
+}
+
+.card p{
     color: dimgray;
 }
 
@@ -66,5 +70,53 @@
 
 }
 h6{
+    color: orange;
+}
+
+.category-underine{
+    border-radius: 10px;
+    height: 8px;
+    width: 8%;
+    box-shadow: 0 55px 0 0 orange;
+    margin-bottom: 150px;
+    margin-left: -118px;
+}
+
+.category-margin{
+    margin-bottom: 40px;
+}
+
+
+#subscribe{
+    height: 250px;
+}
+
+#subscribe h6{
+    color: gray;
+}
+
+.form-control{
+    color: dimgray;
+}
+
+#contact-button{
+    margin-top: 10px;
+}
+
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-us-icons img{
+    height: 50%;
+  
+}
+
+.about-headings h5{
     color: orange;
 }
